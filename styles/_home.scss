@@ -1,0 +1,49 @@
+.home{
+    background: radial-gradient(#525252,#101010);
+    .heading{
+        font-family: 'Lobster Two', cursive;
+        font-size: 50px;
+    }
+    img{
+        width: 300px;
+    }
+    .info{
+        text-align: center;
+        font-size: 19px;
+        font-family: 'Indie Flower', cursive;
+    }
+}
+
+#home{
+    display: grid;
+    min-height: 90vh;
+    grid-template-rows: 20% 50% 20%;
+    // grid-template-columns: 10% 40% 40% 10%;
+    
+    
+
+    img{
+        justify-self: center;
+        align-self: center;
+        grid-row: 2/3;
+        // grid-column: 2/3;
+    }
+
+    h1{
+        justify-self: center;
+        align-self: center;
+        grid-row: 1/2;
+        // grid-column: 3/4;
+    }
+
+    .info{
+        justify-self: center;
+        align-self: center;
+        grid-row: 3/4;
+        // grid-column: 3/4;
+    }
+
+
+
+}
+
